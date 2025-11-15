@@ -1,0 +1,25 @@
+.link-button-group {
+  grid-template-columns: 1fr;
+}
+
+.link-button-group .app-link-btn {
+  background-color: #f0f0f0;
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-link-btn:hover {
+  background-color: #e0e0e0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
